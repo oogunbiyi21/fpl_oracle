@@ -9,7 +9,6 @@ This project aims to develop an algorithm to help Fantasy Premier League (FPL) m
 - [Data Sources](#data-sources)
 - [Key Functionalities](#key-functionalities)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Overview
@@ -51,10 +50,6 @@ The FPL Team Selection Algorithm is designed to analyze player performance and f
    pip install -r requirements.txt
    ```
 
-5. Obtain the necessary data by running the data collection script:
-   ```sh
-   python data_collection.py
-   ```
 
 ## Data Sources
 
@@ -72,12 +67,8 @@ The primary data source for this project is the official Fantasy Premier League 
 - **Fixture Difficulty Calculation**: Average difficulty of upcoming fixtures for each team.
 - **Fixture Difficulty Visualization**: Plotting the difficulty of fixtures for easy interpretation.
 
-### 3. Goals and Clean Sheets Analysis
 
-- **Total Goals by Club**: Aggregating and visualizing total goals scored by each club.
-- **Clean Sheets by Club**: Aggregating and visualizing clean sheets by each club.
-
-### 4. Team Selection Algorithm
+### 3. Team Selection Algorithm
 
 - **Incorporating Fixture Difficulty**: Adjusting player selection based on the difficulty of upcoming fixtures.
 - **Optimizing Team Selection**: Recommending the best players for upcoming gameweeks based on performance data and fixture difficulty.
