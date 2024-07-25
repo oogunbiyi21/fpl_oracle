@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Model Prediction Results</h1>
+    
+    <h2>Evaluation Metrics</h2>
+    <p>{{ evaluation }}</p>
+
+    <h2>Feature Importances</h2>
+    <img src="{{ feature_importance_plot }}" alt="Feature Importances Plot">
+
+    <h2>Actual vs Predicted Total Points</h2>
+    <img src="{{ actual_vs_predicted_plot }}" alt="Actual vs Predicted Plot">
+</body>
+</html>
