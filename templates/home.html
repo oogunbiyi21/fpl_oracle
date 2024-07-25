@@ -7,13 +7,23 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <h1>Welcome to the Fantasy Premier League Analysis</h1>
-    <nav>
-        <ul>
-            <li><a href="{{ url_for('data_overview') }}">Data Overview</a></li>
-            <li><a href="{{ url_for('model_prediction') }}">Model Prediction</a></li>
-            <li><a href="{{ url_for('eda') }}">Exploratory Data Analysis</a></li>
-        </ul>
-    </nav>
+    <div class="container">
+        <header>
+            <h1>Welcome to the Fantasy Premier League Analysis</h1>
+            <nav>
+                <ul>
+                    <li><a href="{{ url_for('data_overview') }}">Data Overview</a></li>
+                    <li><a href="{{ url_for('model_prediction') }}">Model Prediction</a></li>
+                    <li><a href="{{ url_for('eda') }}">Exploratory Data Analysis</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <p>Explore player statistics, model predictions, and perform exploratory data analysis to get insights into the Fantasy Premier League.</p>
+        </main>
+        <footer>
+            <p>&copy; 2024 Fantasy Premier League Analysis</p>
+        </footer>
+    </div>
 </body>
 </html>
